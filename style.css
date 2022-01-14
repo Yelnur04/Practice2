@@ -1,0 +1,65 @@
+body {
+  font-family: Sora, "sans-serif";
+  line-height: 1.7;
+
+}
+a{
+  text-decoration: none;
+  color: dark;
+}
+.hero{
+  background-image: url(./img/123.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+opacity: 0.7;
+z-index: 2;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+}
+.display-4{
+  color: white;
+  font-weight: 700;
+}
+
+.navbar .logo{
+  width: 40px;
+}
+.btn{
+  padding: 11px 20px;
+  border-width: 2px;
+  border-radius: 0;
+  border-color: blue;
+}
+.features{
+  background-image: url(./img/1111.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 190px;
+}
+.card-effect{
+  box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+  background-color: white;
+  padding: 25px;
+  transition: all 0.35s ease;
+}
+.card-effect:hover{
+  box-shadow: none;
+  transform: translateY(5px);
+}
+.iconbox{
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 32px;
+  border-radius: 100px;
+}
